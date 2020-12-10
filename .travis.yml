@@ -4,4 +4,5 @@ addons:
   apt:
     packages:
       - ant
-script: ant test
+script: ant -Dlibs.CopyLibs.classpath=a/path/to/org-netbeans-modules-java-j2seproject-copylibstask.jar
+ant test
