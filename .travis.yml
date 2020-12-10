@@ -5,4 +5,4 @@ addons:
     packages:
       - ant
 script: ant -Dlibs.CopyLibs.classpath=a/path/to/org-netbeans-modules-java-j2seproject-copylibstask.jar
-ant test
+
